@@ -5,11 +5,11 @@ import (
 	"os"
 	"strconv"
 
-	playfab "github.com/dgkanatsios/playfabsdk-go/sdk"
-	"github.com/dgkanatsios/playfabsdk-go/sdk/authentication"
-	"github.com/dgkanatsios/playfabsdk-go/sdk/client"
-	"github.com/dgkanatsios/playfabsdk-go/sdk/data"
-	"github.com/dgkanatsios/playfabsdk-go/sdk/server"
+	playfab "github.com/Myfreedom614/playfabsdk-go/sdk"
+	"github.com/Myfreedom614/playfabsdk-go/sdk/authentication"
+	"github.com/Myfreedom614/playfabsdk-go/sdk/client"
+	"github.com/Myfreedom614/playfabsdk-go/sdk/data"
+	"github.com/Myfreedom614/playfabsdk-go/sdk/server"
 )
 
 const (

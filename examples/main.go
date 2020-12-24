@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	playfab "github.com/dgkanatsios/playfabsdk-go/sdk"
-	client "github.com/dgkanatsios/playfabsdk-go/sdk/client"
+	playfab "github.com/Myfreedom614/playfabsdk-go/sdk"
+	client "github.com/Myfreedom614/playfabsdk-go/sdk/client"
 )
 
 func main() {
-	settings := playfab.NewSettingsWithDefaultOptions("YOUR_TITLEID_HERE")
+	settings := playfab.NewSettingsWithDefaultOptions("AB20")
 
 	loginData := &client.LoginWithCustomIDRequestModel{
 		CustomId:      "GettingStartedGuide",
